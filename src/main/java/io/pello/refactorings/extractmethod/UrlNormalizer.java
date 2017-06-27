@@ -11,16 +11,31 @@ public class UrlNormalizer {
 		public String normalize (String title) {
 			String url = "";
 			// First we trim whitespaces
-			url = url.trim();
+			url = title.trim();
 			
 			// Remove special chars
-			url.replaceAll("[\\,\\.\\:\\;]+", "");
+			String specialRemoved = "";
+			for (int i = 0; i< url.length();i++) {
+				if (url.charAt(i) != ',' && url.charAt(i) != ':' && url.charAt(i) != '.' && url.charAt(i) != '?') {
+					specialRemoved += url.charAt(i);
+				} 
+			}
+			
+			url = specialRemoved;
 			
 			// Replace white spaces with hyphens
-			url.replaceAll("[\t]+", "");
+			String spacesReplaced = "";
+			for (int i = 0; i< url.length();i++) {
+				if (url.charAt(i) == ' ') {
+					spacesReplaced += "-";
+				} else {
+					spacesReplaced += url.charAt(i);
+				}
+			}
+			url = spacesReplaced;
 			
 			// lowercase everything
-			url = url.toUpperCase();
+			url = url.toLowerCase();
 			
 			return url;
 		}

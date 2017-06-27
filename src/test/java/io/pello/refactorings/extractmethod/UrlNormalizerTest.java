@@ -10,7 +10,7 @@ public class UrlNormalizerTest {
 	public void testNormalize() {
 		UrlNormalizer urlNormalizer = new UrlNormalizer();
 		String expected = "why-junit-is-great";
-		String actual = urlNormalizer.normalize("Why Junit is Great?");
+		String actual = urlNormalizer.normalize("  \tWhy, Junit: is Great?  \n\t");
 		
 		assertEquals("Normalizes correctly", expected, actual);
 	}
