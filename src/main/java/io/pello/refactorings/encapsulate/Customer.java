@@ -1,7 +1,7 @@
 package io.pello.refactorings.encapsulate;
 
 /**
- * Rename variables and methods
+ * Encapsulate field
  * This class is intended to be used as a refactoring playground
  * @author PELLO_ALTADILL
  */
