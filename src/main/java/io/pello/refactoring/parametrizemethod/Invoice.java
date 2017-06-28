@@ -1,5 +1,10 @@
 package io.pello.refactoring.parametrizemethod;
 
+/**
+ * Parametrized method
+ * This class is intended to be used as a refactoring playground
+ * @author PELLO_ALTADILL
+ */
 public class Invoice {
 	private float subtotal;
 	private Customer customer;
