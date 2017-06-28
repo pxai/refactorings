@@ -13,13 +13,11 @@ public class Passenger {
 	}
 
 	public boolean isUnemployed() {
-		// TODO Auto-generated method stub
-		return false;
+		return isUnemployed;
 	}
 
 	public boolean isAChild() {
-		// TODO Auto-generated method stub
-		return false;
+		return isAChild;
 	}
 
 
