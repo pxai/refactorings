@@ -16,12 +16,9 @@ public class Customer {
 	
 	
 
-	public Customer(String name, String dni, String creditCard, Date creditCardDate, int creditCardControlNumber) {
+	public Customer(String name, String dni) {
 		this.name = name;
 		this.dni = dni;
-		this.creditCard = creditCard;
-		this.creditCardDate = creditCardDate;
-		this.creditCardControlNumber = creditCardControlNumber;
 	}
 
 	public boolean isCardExpired () {
