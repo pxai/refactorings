@@ -4,7 +4,7 @@ import static org.junit.Assert.*;
 
 import org.junit.Test;
 
-import io.pello.refactoring.replaceparameterwitexplicitmethod.Vehicle;
+import io.pello.refactorings.replaceparameterwitexplicitmethod.Vehicle;
 
 public class VehicleTest {
 

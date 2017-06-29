@@ -4,8 +4,8 @@ import static org.junit.Assert.*;
 
 import org.junit.Test;
 
-import io.pello.refactoring.parametrizemethod.Customer;
-import io.pello.refactoring.parametrizemethod.Invoice;
+import io.pello.refactorings.parametrizemethod.Customer;
+import io.pello.refactorings.parametrizemethod.Invoice;
 
 public class InvoiceTest {
 

@@ -4,7 +4,7 @@ import static org.junit.Assert.*;
 
 import org.junit.Test;
 
-import io.pello.refactoring.extractclass.Customer;
+import io.pello.refactorings.extractclass.Customer;
 
 public class CustomerTest {
 

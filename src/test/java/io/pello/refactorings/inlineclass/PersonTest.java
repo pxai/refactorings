@@ -6,7 +6,7 @@ import java.util.Date;
 
 import org.junit.Test;
 
-import io.pello.refactoring.inlineclass.Person;
+import io.pello.refactorings.inlineclass.Person;
 
 public class PersonTest {
 

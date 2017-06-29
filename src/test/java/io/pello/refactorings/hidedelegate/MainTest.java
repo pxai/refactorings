@@ -4,7 +4,7 @@ import static org.junit.Assert.*;
 
 import org.junit.Test;
 
-import io.pello.refactoring.hidedelegate.Main;
+import io.pello.refactorings.hidedelegate.Main;
 
 public class MainTest {
 

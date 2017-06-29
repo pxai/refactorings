@@ -4,7 +4,7 @@ import static org.junit.Assert.*;
 
 import org.junit.Test;
 
-import io.pello.refactoring.substitutealgorithm.Order;
+import io.pello.refactorings.substitutealgorithm.Order;
 
 public class OrderTest {
 

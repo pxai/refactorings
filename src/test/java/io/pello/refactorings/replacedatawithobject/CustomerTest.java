@@ -4,7 +4,7 @@ import static org.junit.Assert.*;
 
 import org.junit.Test;
 
-import io.pello.refactoring.replacedatawithobject.Customer;
+import io.pello.refactorings.replacedatawithobject.Customer;
 
 public class CustomerTest {
 
