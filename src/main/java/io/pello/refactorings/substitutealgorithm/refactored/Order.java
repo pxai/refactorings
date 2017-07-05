@@ -12,6 +12,4 @@ public class Order {
 		}
 		return -1;
 	}
-
-
 }

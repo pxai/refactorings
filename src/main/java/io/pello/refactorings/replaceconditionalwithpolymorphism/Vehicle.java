@@ -30,6 +30,4 @@ public class Vehicle {
 		  }
 		  return result;
 		}
-
-	
 }

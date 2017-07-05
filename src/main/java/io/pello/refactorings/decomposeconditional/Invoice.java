@@ -6,7 +6,6 @@ package io.pello.refactorings.decomposeconditional;
  * @author PELLO_ALTADILL
  */
 public class Invoice {
-	
 	private Customer customer;
 	
 	public Invoice (Customer customer) {
@@ -21,7 +20,6 @@ public class Invoice {
 		} else {
 		  payment = price * vat;
 		}
-
 		return payment;
 	}
 }

@@ -8,5 +8,4 @@ public class CoolConversor extends Conversor {
 	public double pound2Euro (double qty) {
 		return qty * 1.3d;
 	}
-
 }

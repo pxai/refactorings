@@ -14,8 +14,6 @@ public class Customer {
 	private Date creditCardDate;
 	private int creditCardControlNumber;
 	
-	
-
 	public Customer(String name, String dni) {
 		this.name = name;
 		this.dni = dni;

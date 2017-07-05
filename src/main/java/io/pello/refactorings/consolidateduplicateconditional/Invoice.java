@@ -33,5 +33,4 @@ public class Invoice {
 			return subtotal;
 		}
 	}
-	
 }

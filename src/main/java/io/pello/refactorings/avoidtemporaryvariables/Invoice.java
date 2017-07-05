@@ -14,5 +14,4 @@ public class Invoice {
 		System.out.println("Total with vat: " + temp);
 		return temp - discount;
 	}
-
 }

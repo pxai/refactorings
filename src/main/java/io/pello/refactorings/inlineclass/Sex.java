@@ -17,5 +17,4 @@ public class Sex {
 	public String toString() {
 		return Integer.toString(sex);
 	}
-
 }

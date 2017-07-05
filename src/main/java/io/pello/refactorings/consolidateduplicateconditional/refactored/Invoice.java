@@ -11,14 +11,12 @@ public class Invoice {
 	private float price;
 	private int qty;
 	
-
 	public Invoice (Customer customer, float price, int qty) {
 		this.customer = customer;
 		this.price = price;
 		this.qty = qty;
 	}
 	
-
 	public float calculateTotal (float vat, float discount) {
 		float subtotal = 0;
 		if (customer.isVip()) {
@@ -28,5 +26,4 @@ public class Invoice {
 		}
 		return subtotal * (1 + (vat/100));
 	}
-	
 }

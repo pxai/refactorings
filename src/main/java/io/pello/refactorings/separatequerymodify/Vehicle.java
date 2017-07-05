@@ -34,5 +34,4 @@ public class Vehicle {
 	public String getType() {
 		return type;
 	}
-	
 }

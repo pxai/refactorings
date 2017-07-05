@@ -1,8 +1,9 @@
 package io.pello.refactorings.parametrizemethod;
 
 /**
- * Parametrized method
- * This class is intended to be used as a refactoring playground
+ * Parametrized method This class is intended to be used as a refactoring
+ * playground
+ * 
  * @author PELLO_ALTADILL
  */
 public class Invoice {
@@ -15,7 +16,6 @@ public class Invoice {
 	}
 
 	public float charge() {
-
 		if (customer.getAge() < 18) {
 			return chargeWithUnderageDiscount();
 		} else if (customer.payInCash()) {
@@ -38,5 +38,4 @@ public class Invoice {
 	private float chargeNormal() {
 		return subtotal;
 	}
-
 }

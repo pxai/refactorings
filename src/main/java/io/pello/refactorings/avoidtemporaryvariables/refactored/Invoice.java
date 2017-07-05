@@ -16,7 +16,6 @@ public class Invoice {
 		return priceWithVat - discount;
 	}
 
-	
 	/*
 	 * Another Step
 	public float totalPrice (float price, float vat, float discount) {
@@ -26,6 +25,4 @@ public class Invoice {
 	private float appliedVat (float price, float vat) {
 		return (vat * price) / 100;
 	}*/
-	
-
 }

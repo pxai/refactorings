@@ -10,5 +10,4 @@ public class Conversor {
 		float pesetas = euros * EUROS_PESETAS_CHANGE_RATE;
 		return pesetas;
 	   }
-	
 }

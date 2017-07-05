@@ -15,9 +15,8 @@ public class Customer {
 	public boolean payInCash() {
 		return payInCash;
 	}
-
+	
 	public int getAge() {
 		return age;
 	}
-	
 }

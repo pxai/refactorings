@@ -9,5 +9,4 @@ public class Main {
 	public double convert (double amount) {
 		return conversor.euro2Dollar(amount);
 	}
-
 }

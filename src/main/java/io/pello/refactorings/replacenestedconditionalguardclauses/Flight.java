@@ -51,5 +51,4 @@ public class Flight {
 	private float childDiscount() {
 		return BASE_PRICE * distance * CHILDREN_DISCOUNT;
 	}
-
 }

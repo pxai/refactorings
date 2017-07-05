@@ -7,5 +7,4 @@ package io.pello.refactorings.pullup;
  */
 public class Vehicle {
 	protected String name;
-
 }

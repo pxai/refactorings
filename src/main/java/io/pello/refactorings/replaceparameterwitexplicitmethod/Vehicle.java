@@ -10,12 +10,10 @@ public class Vehicle {
 	private int acceleration;
 	private int speed;
 	
-
 	public Vehicle(int acceleration, int speed) {
 		this.acceleration = acceleration;
 		this.speed = speed;
 	}
-
 
 	public void initVehicle (int type, int value) {
 		  if (type == 1) {
@@ -29,14 +27,11 @@ public class Vehicle {
 		  }
 		}
 
-
 	public int getAcceleration() {
 		return acceleration;
 	}
 
-
 	public int getSpeed() {
 		return speed;
 	}
-
 }

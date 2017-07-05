@@ -38,7 +38,6 @@ public class DiscountCalculator {
 	}
 
 	private double calculatePrice() {
-
 		if (price > 50 && customer.isVip()) {
 			finalPrice = price * 0.5;
 		} else if (price > 10 && customer.isSpecial()) {
@@ -49,5 +48,5 @@ public class DiscountCalculator {
 
 		return finalPrice;
 	}
-
 }
+
