@@ -14,7 +14,7 @@ public class WarriorTest {
 		int actual = warrior.attack();
 		
 		for (int i = 0; i< 100; i++)
-			assertTrue("Testing attack value", actual >= DAMAGE && actual <= DAMAGE+3);			
+			assertTrue("Testing attack value", actual >= DAMAGE && actual <= DAMAGE+4);			
 	}
 	
 

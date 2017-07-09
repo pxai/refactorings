@@ -1,8 +1,6 @@
 package io.pello.refactorings.parametrizemethod;
 
-/**
-* Refactored version
-*/
+
 public class Customer {
 	private int age;
 	private boolean payInCash;
