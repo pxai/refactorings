@@ -76,17 +76,21 @@ public class Main {
 <script src="//repl.it/embed/JVCI/3.js">
 </script>
 - [Separate Query from Modify](https://repl.it/JVCk/1)
-<script src="//repl.it/embed/JVCk/1.js">
+<script src="https://repl.it/embed/JVCk/1.js">
+
 </script>
 - [Parametrize Method](https://repl.it/JVCx/2)
-<script src="//repl.it/embed/JVCx/2.js">
+<script src="https://repl.it/embed/JVCx/2.js">
 </script>
-- []()
-
-- []()
-
-- []()
-
+- [Replace Parameter with Explicit Method](https://repl.it/JVDT/1)
+<script src="//repl.it/embed/JVDT/1.js">
+</script>
+- [Substitute Algorithm](https://repl.it/JVDd/3)
+<script src="//repl.it/embed/JVDd/3.js">
+</script>
+- [Extract Class](https://repl.it/JVDm/2)
+<script src="//repl.it/embed/JVDm/2.js">
+</script>
 - []()
 
 - []()
