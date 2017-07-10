@@ -18,7 +18,12 @@ This is the Main code we use to test them all:
 ```
 public class Main {
   public static void main (String args[]) {
+    System.out.printpublic class Main {
+  public static void main (String args[]) {
     System.out.println("It compiles. Tests: ");
+    org.junit.runner.JUnitCore.main("ConversorTest");
+  }
+}ln("It compiles. Tests: ");
     org.junit.runner.JUnitCore.main("ConversorTest");
   }
 }
@@ -91,18 +96,25 @@ public class Main {
 - [Extract Class](https://repl.it/JVDm/2)
 <script src="//repl.it/embed/JVDm/2.js">
 </script>
-- []()
-
-- []()
-
-- []()
-
-- []()
-
-- []()
-
-- []()
-
-
+- [Inline Class](https://repl.it/JVEA/1)
+<script src="//repl.it/embed/JVEA/1.js">
+</script>
+- [Hide Delegate](https://repl.it/JVEL/3)
+<script src="//repl.it/embed/JVEL/3.js">
+</script>
+- [Introduce Local Extension](https://repl.it/JVE6/2)
+<script src="//repl.it/embed/JVE6/2.js"></script>
+- [Replace Data with Object](https://repl.it/JVEl/2)
+<script src="//repl.it/embed/JVEl/2.js"></script>
+- [Replace Array with Object](https://repl.it/JVFE/1)
+<script src="//repl.it/embed/JVFE/1.js"></script>
+- [Encapsulate Collection](https://repl.it/JVFO/2)
+<script src="//repl.it/embed/JVFO/2.js"></script>
+- [Pull Up](https://repl.it/JVFZ/2)
+<script src="//repl.it/embed/JVFZ/2.js">
+</script>
+- [Push Down](https://repl.it/JVFg/2)
+<script src="//repl.it/embed/JVFg/2.js">
+</script>
 
 

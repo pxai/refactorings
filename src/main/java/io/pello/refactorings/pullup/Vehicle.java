@@ -1,7 +1,7 @@
 package io.pello.refactorings.pullup;
 
 /**
- * Push Up
+ * Pull Up
  * This class is intended to be used as a refactoring playground
  * @author PELLO_ALTADILL
  */

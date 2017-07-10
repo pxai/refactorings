@@ -1,8 +1,5 @@
 package io.pello.refactorings.hidedelegate;
 
-import io.pello.refactorings.hidedelegate.refactored.Die;
-import io.pello.refactorings.hidedelegate.refactored.Player;
-
 /**
  * Hide Delegate
  * This class is intended to be used as a refactoring playground
