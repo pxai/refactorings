@@ -1,9 +1,11 @@
-package io.pello.refactorings.avoidtemporaryvariables;
+package io.pello.refactorings.splittemporaryvariable;
 
 import static org.junit.Assert.*;
 
 import org.junit.Before;
 import org.junit.Test;
+
+import io.pello.refactorings.splittemporaryvariable.Invoice;
 
 public class InvoiceTest {
 

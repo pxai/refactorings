@@ -1,4 +1,4 @@
-package io.pello.refactorings.avoidtemporaryvariables.refactored;
+package io.pello.refactorings.splittemporaryvariable.refactored;
 
 /**
 * Refactored version

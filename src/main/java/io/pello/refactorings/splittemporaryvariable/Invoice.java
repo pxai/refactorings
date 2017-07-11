@@ -1,4 +1,4 @@
-package io.pello.refactorings.avoidtemporaryvariables;
+package io.pello.refactorings.splittemporaryvariable;
 
 /**
  * Avoid using temporary variable refactoring playground
