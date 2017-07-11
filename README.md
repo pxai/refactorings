@@ -18,12 +18,7 @@ This is the Main code we use to test them all:
 ```
 public class Main {
   public static void main (String args[]) {
-    System.out.printpublic class Main {
-  public static void main (String args[]) {
     System.out.println("It compiles. Tests: ");
-    org.junit.runner.JUnitCore.main("ConversorTest");
-  }
-}ln("It compiles. Tests: ");
     org.junit.runner.JUnitCore.main("ConversorTest");
   }
 }
