@@ -18,12 +18,7 @@ This is the Main code we use to test them all:
 ```
 public class Main {
   public static void main (String args[]) {
-    System.out.printpublic class Main {
-  public static void main (String args[]) {
     System.out.println("It compiles. Tests: ");
-    org.junit.runner.JUnitCore.main("ConversorTest");
-  }
-}ln("It compiles. Tests: ");
     org.junit.runner.JUnitCore.main("ConversorTest");
   }
 }
@@ -68,6 +63,9 @@ public class Main {
 - [Consolidate Duplicate Conditional](https://repl.it/JVAl/1)
 <script src="//repl.it/embed/JVAl/1.js">
 </script>
+-[Consolidate Conditional Exception](https://repl.it/JVA7/2)
+<script src="//repl.it/embed/JVA7/2.js">
+</script>
 - [Remove Control Flag](https://repl.it/JVAy/1)
 <script src="//repl.it/embed/JVAy/1.js">
 </script>
@@ -102,6 +100,8 @@ public class Main {
 - [Hide Delegate](https://repl.it/JVEL/3)
 <script src="//repl.it/embed/JVEL/3.js">
 </script>
+-[Introduce Foreign Method](https://repl.it/JXCR/1)
+<script src="//repl.it/embed/JXCR/1.js"></script>
 - [Introduce Local Extension](https://repl.it/JVE6/2)
 <script src="//repl.it/embed/JVE6/2.js"></script>
 - [Replace Data with Object](https://repl.it/JVEl/2)
