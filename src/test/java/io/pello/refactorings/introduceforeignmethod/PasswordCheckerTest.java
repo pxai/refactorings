@@ -14,18 +14,12 @@ public class PasswordCheckerTest {
 	}
 	
 	@Test
-	public void testIsEmptyStringWeakPassword() {
-		assertTrue("Empty String is weak password",passwordChecker.isWeakPassword(""));
+	public void testWithGoodPassword() {
+		String expected = "josua";
+		String actual = passwordChecker.improvePassword("josua");
+		
+		assertEquals("With bad password", actual, expected);
 	}
 	
-	@Test
-	public void testIsStringWithSpacesWeakPassword() {
-		assertTrue("String with spaces is weak password",passwordChecker.isWeakPassword("         "));
-	}
-	
-	@Test
-	public void testIsShortStringWeakPassword() {
-		assertTrue("Short String is weak password",passwordChecker.isWeakPassword("fff"));
-	}
 
 }
