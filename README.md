@@ -1,5 +1,5 @@
 # README #
-Bitbucket told me to edit this
+Sample scenarios for refactorings
 
 ## What is this repository for? ###
  * To pay homage to a very dear friend of mine
