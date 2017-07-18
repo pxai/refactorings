@@ -6,7 +6,6 @@ package io.pello.refactorings.splittemporaryvariable.refactored;
 public class Invoice {
 	
 	public float totalPrice (float price, float vat, float discount) {
-		float temp = 0;
 		float appliedVat = (vat * 100) / price;		
 		System.out.println("Applied vat: " + appliedVat);
 		
