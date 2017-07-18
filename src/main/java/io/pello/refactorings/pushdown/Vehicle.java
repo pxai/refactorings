@@ -6,9 +6,9 @@ package io.pello.refactorings.pushdown;
  * @author PELLO_ALTADILL
  */
 public class Vehicle {
-	private String name;
-	private String plate;
-	private Insurance insurance;
+	protected String name;
+	protected String plate;
+	protected Insurance insurance;
 
 	public void start() {
 	}

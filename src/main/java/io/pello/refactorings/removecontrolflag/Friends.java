@@ -16,8 +16,7 @@ public class Friends {
 		boolean found = false;
 		int i = 0;
 		
-		while (i < friends.length && !found ) {
-			 
+		while (i < friends.length && !found ) { 
 			  if (friends[i].equals(friend)) {
 			    found = true;
 			  }

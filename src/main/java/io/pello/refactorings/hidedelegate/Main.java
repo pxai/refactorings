@@ -15,7 +15,7 @@ public class Main {
 	
 	private void init () {
 		player = new Player();
-		die = new Die();
+		die = player.getDie();
 	}
 	
 	public int roll () {

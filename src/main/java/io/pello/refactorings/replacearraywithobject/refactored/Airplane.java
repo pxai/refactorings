@@ -1,4 +1,4 @@
-package io.pello.refactorings.replacearraywithobject.refactored.refactored;
+package io.pello.refactorings.replacearraywithobject.refactored;
 
 import java.util.Arrays;
 

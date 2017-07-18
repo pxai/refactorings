@@ -10,5 +10,6 @@ public abstract class Vehicle {
 		this.speed = speed;
 		this.acceleration = acceleration;
 	}
+	
 	 public abstract int move ();
 }

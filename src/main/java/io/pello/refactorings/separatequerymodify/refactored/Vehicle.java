@@ -1,27 +1,40 @@
 package io.pello.refactorings.separatequerymodify.refactored;
 
 /**
- * Refactored  version
+ * Refactored version
  */
 public class Vehicle {
 	private int horsePower;
 	private String type;
 
 	public Vehicle(int power) {
-		setPower(power);
+		init(power);
 	}
 
-	public void setPower(int power) {
+	private void init(int power) {
+		setPower(power);
+		setType();
+	}
+
+	private void setPower(int power) {
 		horsePower = power;
 	}
 
-	public String getType() {
+	private void setType() {
 		if (horsePower >= 10) {
-			return "Truck";
+			type = "Truck";
 		} else if (horsePower > 5 && horsePower < 10) {
-			return "Car";
+			type = "Car";
 		} else {
-			return "Bike";
+			type = "Bike";
 		}
+	}
+
+	public int getHorsePower() {
+		return horsePower;
+	}
+
+	public String getType() {
+		return type;
 	}
 }

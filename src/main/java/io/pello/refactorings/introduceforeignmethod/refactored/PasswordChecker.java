@@ -8,7 +8,8 @@ public class PasswordChecker {
 			return password;
 		}
 	}
-
+	
+	// We extend String functionality
 	private static String makeItPalindrome (String password) {
 		return new String(password 
 							+ new StringBuilder(password)

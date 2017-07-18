@@ -1,13 +1,11 @@
 package io.pello.refactorings.pushdown.refactored;
 
+import io.pello.refactorings.pushdown.Insurance;
+
 /*
  * Refactored version
  */
 public class Vehicle {
-	private String name;
-	private String plate;
-
-	public void start() {
-	}
+	protected String name;
 }
 

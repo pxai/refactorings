@@ -10,4 +10,5 @@ public class Car extends Vehicle {
 	public boolean isTrunkOpen() {
 		return isTrunkOpened;
 	}
+
 }
